@@ -1,4 +1,4 @@
-# laravel-sail-scratch
+# laravel-sail-new-project
 
 This shell script can be used to quickly setup a new Laravel project with Sail. It is assumed you have Docker installed with the WSL option enabled.
 

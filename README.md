@@ -2,8 +2,9 @@
 
 This shell script can be used to quickly setup a new Laravel project with Sail. It is assumed you have Docker installed with the WSL option enabled.
 
-1) `chmod 777 startproject.sh`
-2) `./startproject.sh name`
+1) Open a WSL shell
+2) `chmod 777 startproject.sh`
+3) `./startproject.sh name`
 
 This will
 

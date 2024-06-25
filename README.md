@@ -10,12 +10,14 @@ This shell script can be used to quickly setup a new Laravel project with Sail. 
 
 This will
 
-1) create a directory in the current directory called `name`
+1) create a directory in the current directory called `project-name`
 2) create a new Laravel project inside this directory and install Sail
 3) create the docker-compose.yml file with an additional setting to add PHPMyAdmin
 4) add sail to bashrc if needed
 
 Once the sript finishes, just cd into the new directory and then:
 1) `sail up -d`
-2) `npm install`
-3) `npm run dev`
+2) `sail npm install`
+3) `sail npm run dev`
+4) `sail php artisan migrate`
+5) Visit http://localhost
